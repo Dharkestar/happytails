@@ -2,50 +2,95 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Happy Tails</title>
-         <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta name="description" content="This page provides information about our values and goals.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Happy Tails - About Us</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">     
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">     
     </head>
 <body>
     <div class="wrapper">
     <header>
         <h1>Happy Tails</h1>
-        <h3>A foster-based rescue in Northern Colorado</h3>
+        <h2>A foster-based rescue in Northern Colorado</h2>
     </header>
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="adopt.html">Adoptable Animals</a></li>
-            <li><a href="volunteer.html">Volunteer</a></li>
-            <li><a href="donate.html">Donate</a></li>
-            <li><a href="aboutus.html">About</a></li>            
+       <ul class="menubar">
+            <li class="menuitem"><a href="index.html">Home</a></li>
+            <li class="menuitem"><a href="adoptableanimals.html">Adoptable Animals</a></li>
+            <li class="menuitem"><a href="volunteer.html">Volunteer</a></li>
+            <li class="menuitem"><a href="donate.html">Donate</a></li>
+            <li class="menuitem"><a href="aboutus.html">About</a></li>                                  
         </ul> 
-    </nav>   
-<h4>About Us</h4>
-<div class="box">
-  <div class="left">
+    </nav>
+<h4>Make their tale a happy one!</h4>
+<h3>About Us</h3>
+    <div class="contact">
     <p>Happy Tails Animal Rescue is a nonprofit 501© (3) organization located in Northern Colorado. We serve companion animals and strive
-        to provide the highest quality care possible. We work with a wide network of volunteer veterinarians, foster families and volunteers
-        to further our cause to the animals we care for. These animals are unable to speak for themselves, so we give them a voice during the 
-        difficult time. All animals deserve dignity and a safe place to call home. <br><br>
-        If you agree with our mission, please consider a donation, becoming a foster, volunteering or adopting. Our volunteers
-        are available if you or someone you know needs to surrender an animal. We mainly serve Northern Colorado but have sister rescues
-        that we can contact if you need assistance in other areas. 
+    to provide the highest quality care possible. We work with a wide network of volunteer veterinarians, foster families and volunteers
+    to further our cause to the animals we care for. These animals are unable to speak for themselves, so we give them a voice during the 
+    difficult time. All animals deserve dignity and a safe place to call home. <br><br>
+    If you agree with our mission, please consider a donation, becoming a foster, volunteering or adopting. Our volunteers
+    are available if you or someone you know needs to surrender an animal. We mainly serve Northern Colorado but have sister rescues
+    that we can contact if you need assistance in other areas. 
     </p>
-      <div class="contact">
-          Happy Tails Rescue<br>
-          PO Box 1234<br>
-          Fort Collins, CO 880524<br>
-          970-222-3344
-      </div>
-  </div>
-  <div class="right">
-   <h2>Make their tale a happy one</h2>
-    <img src="/images/jackie.jpg" alt="Man with puppy" style= "width:528px;height:723px;">
-  </div>
+    </div>
+<div class="box">
+    <div class="center"><h3>Contact Us!</h3> </div>
+<div class="leftset">
+        <form action="welcome.php" method="POST" id="contactForm">
+        <fieldset>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required minlength="2"><br>
+        <label for="phone">Enter your phone number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+        <label for="email">Enter your email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <br><br>
+        <input type="submit" id="submit" value="Submit">
+        <input type="reset" id="reset">
+        </fieldset>
+    </form>
 </div>
+<div class="rightset">
+<div class="table">
+ <table>
+    <tr><th>Head Staff</th>
+        <th>Title</th>
+        <th>Email</th>
+    </tr>
+    <tr>
+        <td>Anne Rivers</td>
+        <td>Founder/CEO</td>
+        <td>arivers@happytails.com</td>
+    </tr>
+    <tr>
+        <td>Jack Smith</td>
+        <td>Cofounder/CFO</td>
+        <td>jsmith@happytails.com</td>
+    </tr>
+    <tr>
+        <td>Steven Salerno</td>
+        <td>Board Member</td>
+        <td>ssalerno@happytails.com</td>
+    </tr>
+    <tr>
+        <td>Debbie Combs</td>
+        <td>Board Member</td>
+        <td>dcombs@happytails.com</td>
+    </table>
+</div>
+
+</div>
+</div>
+        <div class="address">
+        Happy Tails Rescue<br>
+        PO Box 1234<br>
+        Fort Collins, CO 880524<br>
+        970-222-3344
+    </div>
 </div>
 <footer>
   <p>Copyright &copy; 2024 Happy Tails Animal Rescue</p>
