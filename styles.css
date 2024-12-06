@@ -70,7 +70,7 @@ h4 {
     align-content: center;
     padding-left: 25px;
     }
-.menubar { 
+menubar { 
     display: flex; 
     flex-direction: row; 
     list-style: none; 
@@ -260,25 +260,25 @@ th  {
     font-family: "Poppins", system-ui;
     font-size: 16px;
     }
-div.available {
+available {
     margin: auto;
     margin-top: 30px;
     width: 600px;
     height: auto;
     }
-div.desc {
+desc {
     padding: 10px;
     text-align: center;
     width: 400px;
     margin: auto;
     margin-bottom: 58px;
     }
-div.available img{
+available img{
     width: 400px;
     height: auto;
     }
 @media (max-width: 769px) { 
-    .menubar { 
+    menubar { 
        flex-direction: column; 
         }
     } 
@@ -289,7 +289,7 @@ div.available img{
     .wrapper {
         width: 90%;
     }
-}
+
 @media (max-width: 600px) {
     .box1 {
         width: 100%;
@@ -322,7 +322,7 @@ div.available img{
     .wrapper {
         width: 450px;
     }
-    div.available {
+    available {
         width: 400px;
         height: auto;
     }
@@ -339,5 +339,4 @@ div.available img{
         margin-top: 0;
     }
 }
-  
 
